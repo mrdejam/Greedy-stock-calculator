@@ -1,0 +1,55 @@
+
+/* //                  _      _                 
+//                    | |    (_)                
+//   _ __ ___  _ __ __| | ___ _  __ _ _ __ ___  
+//  | '_ ` _ \| '__/ _` |/ _ \ |/ _` | '_ ` _ \ 
+//  | | | | | | | | (_| |  __/ | (_| | | | | | |
+//  |_| |_| |_|_|  \__,_|\___| |\__,_|_| |_| |_|
+//                          _/ |                
+//                         |__/                  */
+
+
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  direction: rtl;
+}
+
+h1 {
+  color: #007bff;
+}
+
+div {
+  margin-bottom: 10px;
+}
+
+label {
+  display: inline-block;
+  width: 120px;
+  text-align: right;
+  margin-right: 10px;
+}
+
+input[type='text'],
+input[type='number'] {
+  padding: 5px;
+  width: 200px;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+p {
+  font-size: 18px;
+  font-weight: bold;
+  color: #007bff;
+}

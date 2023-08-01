@@ -1,0 +1,37 @@
+<!-- //                _      _                 
+//                    | |    (_)                
+//   _ __ ___  _ __ __| | ___ _  __ _ _ __ ___  
+//  | '_ ` _ \| '__/ _` |/ _ \ |/ _` | '_ ` _ \ 
+//  | | | | | | | | (_| |  __/ | (_| | | | | | |
+//  |_| |_| |_|_|  \__,_|\___| |\__,_|_| |_| |_|
+//                          _/ |                
+//                         |__/                  -->
+
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>الگوریتم محاسبه سـود سـهام</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>الگوریتم محاسبه سود سهام</h1>
+    <div>
+      <label for="prices">آرایه قیمت سهام:</label>
+      <input type="text" id="prices" placeholder="مثلا: 1,3,2,8,4,9" />
+    </div>
+    <div>
+      <label for="fee">هزینه معاملات:</label>
+      <input
+        type="number"
+        id="fee"
+        min="0"
+        placeholder="Enter transaction fee"
+      />
+    </div>
+    <button onclick="calculateProfit()">محاسبه سود</button>
+    <p id="result"></p>
+
+    <script src="script.js"></script>
+  </body>
+</html>
